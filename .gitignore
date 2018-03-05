@@ -1,17 +1,13 @@
-# Personal
 .vscode/
+jsconfig.json
 
-src/fable/Fable.Core/npm/*.dll*
-src/fable/Fable.Core/npm/*.pdb
-src/fable/Fable.Core/npm/*.xml
-src/fable/Fable.Core/npm/commonjs.js
-src/fable/Fable.Core/npm/fable-core.js
-src/fable/Fable.Core/npm/fable-core.min.js
-src/fable/Fable.Core/npm/fable-core.d.ts
-src/fable/Fable.Core/npm/es2015.js
-
+nuget/
+dotnetsdk/
 src/tools/temp/
+src/typescript/fable-compiler/out/
 
+
+samples/browser/fable-core
 samples/**/out/
 samples/**/bundle.js*
 samples/other/fable-helpers-sample/js/*.*
@@ -202,7 +198,7 @@ packages/
 docs/output/
 
 # Temp folder used for publishing docs
-temp*/
+temp/
 
 # Test results produced by build
 TestResults.xml
@@ -215,7 +211,6 @@ release.sh
 localpackages/
 paket-files
 *.orig
-.paket/paket.exe
 docs/content/license.md
 docs/content/release-notes.md
 .fake

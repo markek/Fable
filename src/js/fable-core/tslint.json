@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {
+    "max-line-length": [false],
+    "no-bitwise": false,
+    "no-empty": false,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false,
+    "variable-name": false,
+    "prefer-for-of": false
+  },
+  "rules": {
+    "interface-name": [false],
+    "max-classes-per-file": [false],
+    "no-bitwise": false,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false,
+    "variable-name": false,
+    "prefer-for-of": false
+  },
+  "rulesDirectory": []
+}
